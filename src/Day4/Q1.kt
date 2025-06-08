@@ -10,6 +10,6 @@ fun main(){
     if (!kaffe.isNullOrBlank()) {
         println(kaffm(kaffe))
     } else {
-        println("No coffee type entered.")
+        println("No coffee type entered! Please try again.")
     }
 }
