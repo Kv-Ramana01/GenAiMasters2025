@@ -55,7 +55,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     .size(width = 100.dp, height = 100.dp)
             ) {
                 Text(
-                    text = "Filled",
+                    text = "Filled1",
                     modifier = Modifier
                         .padding(16.dp),
                     textAlign = TextAlign.Center,
@@ -69,7 +69,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     .size(width = 100.dp, height = 100.dp)
             ) {
                 Text(
-                    text = "Filled",
+                    text = "Filled2",
                     modifier = Modifier
                         .padding(16.dp),
                     textAlign = TextAlign.Center,
@@ -83,7 +83,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     .size(width = 100.dp, height = 100.dp)
             ) {
                 Text(
-                    text = "Filled",
+                    text = "Filled3",
                     modifier = Modifier
                         .padding(16.dp),
                     textAlign = TextAlign.Center,
@@ -99,7 +99,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     .size(width = 100.dp, height = 100.dp)
             ) {
                 Text(
-                    text = "Filled",
+                    text = "Filled4",
                     modifier = Modifier
                         .padding(16.dp),
                     textAlign = TextAlign.Center,
@@ -113,7 +113,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     .size(width = 100.dp, height = 100.dp)
             ) {
                 Text(
-                    text = "Filled",
+                    text = "Filled5",
                     modifier = Modifier
                         .padding(16.dp),
                     textAlign = TextAlign.Center,
@@ -127,7 +127,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     .size(width = 100.dp, height = 100.dp)
             ) {
                 Text(
-                    text = "Filled",
+                    text = "Filled6",
                     modifier = Modifier
                         .padding(16.dp),
                     textAlign = TextAlign.Center,
