@@ -46,14 +46,8 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
 
     Column{
-        Row{
-            Card(
-                colors = CardDefaults.cardColors(
-                    containerColor = MaterialTheme.colorScheme.surfaceVariant,
-                ),
-                modifier = Modifier
-                    .size(width = 100.dp, height = 100.dp)
-            ) {
+        Row(modifier = modifier.fillMaxWidth()) {
+            Card(modifier = modifier.fillMaxWidth().padding(16.dp)) {
                 Text(
                     text = "Filled1",
                     modifier = Modifier
@@ -61,12 +55,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     textAlign = TextAlign.Center,
                 )
             }
+        }
+        Row(modifier = modifier.fillMaxWidth()){
             Card(
                 colors = CardDefaults.cardColors(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant,
                 ),
                 modifier = Modifier
-                    .size(width = 100.dp, height = 100.dp)
+                    .size(width = 300.dp, height = 100.dp).padding(16.dp)
             ) {
                 Text(
                     text = "Filled2",
@@ -75,12 +71,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     textAlign = TextAlign.Center,
                 )
             }
+        }
+        Row{
             Card(
                 colors = CardDefaults.cardColors(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant,
                 ),
                 modifier = Modifier
-                    .size(width = 100.dp, height = 100.dp)
+                    .size(width = 200.dp, height = 100.dp).padding(16.dp,0.dp)
             ) {
                 Text(
                     text = "Filled3",
@@ -96,7 +94,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     containerColor = MaterialTheme.colorScheme.surfaceVariant,
                 ),
                 modifier = Modifier
-                    .size(width = 100.dp, height = 100.dp)
+                    .size(width = 150.dp, height = 100.dp).padding(16.dp,0.dp)
             ) {
                 Text(
                     text = "Filled4",
@@ -110,7 +108,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     containerColor = MaterialTheme.colorScheme.surfaceVariant,
                 ),
                 modifier = Modifier
-                    .size(width = 100.dp, height = 100.dp)
+                    .size(width = 100.dp, height = 100.dp).padding(0.dp,0.dp)
             ) {
                 Text(
                     text = "Filled5",
